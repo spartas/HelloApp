@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *helloTextField;
+@property (weak, nonatomic) IBOutlet UILabel *helloLabel;
+- (IBAction)helloButtonPressed:(UIButton *)sender;
 
 @end
